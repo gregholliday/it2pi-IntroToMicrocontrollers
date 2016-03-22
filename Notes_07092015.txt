@@ -1,0 +1,51 @@
+Services Bike Lock
+1. Authentication
+2. Bike Status CRUD
+	a. Time Out
+	b. Time Returned
+	c. User Id
+3. Historical data
+	
+User Table
+- ID
+- RFId
+- First Name
+- Last Name
+- Status
+	
+Bike Table
+ - ID
+ - BikeName
+ - SerialNo
+ - Status
+
+ Bike Log Table
+ - ID
+ - User ID
+ - Bike ID
+ - TransactionDate
+ - TransactionType
+ 
+Trail Monitor
+1. Photo CRUD
+2. Temperature CRUD
+3. Historical Data
+
+Photo Table
+ - Time stamp
+ - Url
+ - Photo Name
+ - Capture Device Id
+
+Device Table 
+  - Device Id
+  - Description
+  - Location
+
+Temp Table
+ - Device Id
+ - Temperature
+ - Time stamp
+ 
+ 
+ 
